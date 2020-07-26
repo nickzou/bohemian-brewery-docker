@@ -22,6 +22,8 @@ mix.js(`js/app.js`, `${public}/themes/${theme}/js/app.js`)
     processCssUrls: false
 })
 .sass(`scss/styles.scss`, `${public}/themes/${theme}/css/styles.css`)
+.js(`js/template-home-page.js`, `${public}/themes/${theme}/js/template-home-page.js`)
+.sass(`scss/template-home-page.scss`, `${public}/themes/${theme}/css/template-home-page.css`)
 .sourceMaps()
 .polyfill({
     enabled: true,

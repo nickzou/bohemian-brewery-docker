@@ -1,7 +1,7 @@
 {
-  "name": "wordpress",
+  "name": "bohemnian-brewery",
   "version": "1.0.0",
-  "description": "Common packages for Wordpress theme development.",
+  "description": "Packages for Bohemian Brewery Learning Wordpress theme.",
   "main": "index.js",
   "scripts": {
     "dev": "npm run development",
@@ -13,11 +13,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:nickzou/docker-wordpress-theme-boilerplate.git"
+    "url": "git+https://nickzou@bitbucket.org/nickzou/dx-wp-theme.git"
   },
   "author": "Nick Zou",
   "license": "ISC",
-  "homepage": "https://nickzou.com",
+  "homepage": "https://bitbucket.org/nickzou/dx-wp-theme#readme",
   "devDependencies": {
     "@babel/core": "^7.5.5",
     "@babel/plugin-proposal-class-properties": "^7.5.5",
@@ -63,6 +63,6 @@
     "webpack-cli": "^3.3.7"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.14.0"
+    "@fortawesome/fontawesome-free": "^5.12.0"
   }
 }
