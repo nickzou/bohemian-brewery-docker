@@ -5,8 +5,8 @@ src/web/app/mu-plugins/*/
 src/web/app/upgrade
 src/web/app/uploads/*
 !src/web/app/uploads/.gitkeep
-src/web/app/themes/custom-theme/js/
-src/web/app/themes/custom-theme/css/
+src/web/app/themes/bohemian-brewery/js/
+src/web/app/themes/bohemian-brewery/css/
 
 # WordPress
 src/web/wp
@@ -20,6 +20,8 @@ sql-dump-*.sql
 .env
 .env.*
 !.env.example
+src/.env.example
+
 
 # Vendor (e.g. Composer)
 src/vendor/*
