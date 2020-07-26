@@ -5,6 +5,8 @@ src/web/app/mu-plugins/*/
 src/web/app/upgrade
 src/web/app/uploads/*
 !src/web/app/uploads/.gitkeep
+src/web/app/themes/custom-theme/js/
+src/web/app/themes/custom-theme/css/
 
 # WordPress
 src/web/wp
@@ -27,7 +29,7 @@ src/vendor/*
 data
 
 # Node Package Manager
-node_modules
+src/node_modules
 
 # Certs
 certs/
