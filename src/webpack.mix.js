@@ -15,7 +15,7 @@ require('laravel-mix-polyfill');
 
  let theme = process.env.MIX_THEME_NAME;
  let public = 'web/app';
- let virtualHost = `https://custom-site.dev`;
+ let virtualHost = process.env.MIX_SITE_URL;
 
 mix.js(`js/app.js`, `${public}/themes/${theme}/js/app.js`)
 .options({
