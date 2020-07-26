@@ -13,8 +13,7 @@
             if ( ( $cache = wp_cache_get( $file, serialize( $cache_args ) ) ) !== false ) {
                 if ( ! empty( $component_args['return'] ) )
                     return $cache;
-                echo $cache;
-                return;
+                return $cache;
             }
         }
         $file_handle = $file;
@@ -35,5 +34,5 @@
                 return false;
             else
                 return $data;
-        echo $data;
+        return $data;
     }
